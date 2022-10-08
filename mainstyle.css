@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@font-face {
+	font-family: "Haikyuu";
+	src: url("https://assets.codepen.io/209981/HaikyuuWithBallGX.ttf");
+    font-weight: normal;
+}
+ 
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat','san-serif';
+    color: rgb(179, 148, 148);
+}
+html,body{
+    margin: 0%;
+    padding: 0%;  
+}
+
+.navbar ul{
+    margin: 0%;
+}
+.main-header{
+    padding-bottom: 30px; ;
+}
+
+.main-nav li{
+    display: inline;
+}
+
+.main-nav a{
+    display: inline-block;
+    padding: .5em; 
+    color: #e46f29;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 1px solid rgba(27, 25, 25, 0.3);
+}
+
+.navbar li{
+    padding: 0 5%;
+}
+
+.Name{
+    font-family: 'Haikyuu';
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-color: orangered;
+    letter-spacing: 0rem;
+    margin: 0%;
+    font-size: 6em;
+    color: #e46f29;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+h3.Name{
+    font-size: 4em;
+}
+.content{
+    margin: 1em;
+}
+
+.container{
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(32, 30, 30, 0);
+    margin: 0 auto;
+    padding: 0 1.5em;
+    border-bottom:1px solid rgba(24, 22, 22, 0.5);
+}
+
+p{
+    color: #e46f29;
+}
+
+.sec-header{
+    text-decoration:solid;
+    font-weight: lighter;
+    color: rgb(228, 104, 21);
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0%;
+}
+
+.img-hai{
+    float: left;
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+}
+
+.main-footer{
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container{
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+     flex-grow: 1;
+     text-align: right;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.animation:hover{
+	animation: fight 1.5s forwards ease-in-out;
+}
+
+@keyframes fight {
+	0% {
+		font-variation-settings: "wght" 100;
+	}
+
+	100% {
+		font-variation-settings: "wght" 700;
+	}
+}
+
